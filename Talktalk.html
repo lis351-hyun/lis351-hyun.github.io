@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SimpleCookingRecipes</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: blueviolet;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+
+            .column img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        body {
+            background-color: lightskyblue;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1> <b>Talktalk</b></h1>
+
+    <h2>
+        <i>
+            It's a free bulletin board.
+            You are free to communicate with others who use this webpage.
+        </i>
+    </h2>
+    </header>
+
+    <p style="color:rebeccapurple;">Let's talktalk!Share about your information</p>
+    <p style="color:pink;"> I wanna talk with you.Tell me about your story!</p>
+
+
+    <div class="row">
+        <div class="column">
+            <img src="data:image/jpeg;base64,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" alt="freechat1" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://live.staticflickr.com/7059/6918366951_7da28883b5_b.jpg" alt="chat2" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://psycatgames.com/magazine/conversation-starters/potato-jokes/feature-image_hu1b98fef7ec81b1aec55b28dddc7e4322_1098640_1200x1200_fill_q100_box_smart1.jpg" alt="chat3" style="width:100%">
+        </div>
+    </div>
+
+
+    <p><a href="https://www.quora.com/Is-it-okay-to-ask-restaurants-about-ingredients-recipes">Visit Askrestuarantaboutrecipes </a></p>
+    <p><a href="https://www.allrecipes.com/article/food-questions-answered/">Visit FoodQuestion </a></p>
+    <p><a href="https://www.quiztriviagames.com/fun-food-quiz/">Visit FunFoodQuiz </a></p>
+
+    
+
+    <u1>
+        <li>ChatChat</li>
+        <li>AskingBoard</li>
+        <li>FunInformation</li>
+    </u1>
+
+    <dl>
+        <dt>Chatcheatchat</dt>
+        <dd>
+            It is a place where you can simply exchange messages with people as a child.
+            Please share your ideas!
+        </dd>
+        <dt>Freeaskingboardd</dt>
+        <dd>
+            There's something you don't know about food?
+            You have a question about food?
+            Ask here!
+        </dd>
+        <dt>TellFunFoodquizquiz</dt>
+        <dd>
+            An interesting quiz about food.
+            If there are various and interesting problems, let's share them together.
+            And let's solve it together
+        </dd>
+    </dl>
+
+
+
+
+    <ul>
+        <li><p>Background image: {Stock Chat App Graphics Vector Icon} by {Vectorportal} at {https://vectorportal.com/vector/chat-app-vector-graphics/22886 {CC BY-ND}.</p></li>
+        <li><p>Background image: {Question of the Moment – Yuckiest Food} by {Enokson} at {https://www.flickr.com/photos/vblibrary/6918366951, {CC BY}.</p></li>
+        <li><p>Background image: {Sweet Potato Puns} by {PsyCatGame} at {https://psycatgames.com/magazine/conversation-starters/potato-jokes/, {CC BY}.</p></li>
+    </ul>
+</body>
+</html>
